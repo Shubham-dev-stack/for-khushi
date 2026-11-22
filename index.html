@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>For My Khushi ✨ My Heart Beats For You 💖</title>
+    <link rel="stylesheet" href="css/styles.css?v=3.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💙</text></svg>">
+</head>
+<body>
+
+    <!-- Ambient Glowing Nebulas & Clean Particle Canvas -->
+    <div class="ambient-glow glow-blue"></div>
+    <div class="ambient-glow glow-purple"></div>
+    <canvas id="night-sky-canvas"></canvas>
+
+    <!-- Floating Top Music Bar (Playing Perfect.mp3 from 97-lac) -->
+    <div class="top-music-dock">
+        <button id="bg-music-toggle" class="music-play-btn" aria-label="Toggle Background Music">▶</button>
+        <div class="music-meta">
+            <span id="bg-music-title" class="music-title-text">Perfect - Ed Sheeran 💖</span>
+            <span class="music-sub-text">Background Melody • For Khushi</span>
+        </div>
+        <div id="music-visualizer" class="music-wave-bars">
+            <span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <!-- Multi-Step Story Progress Dots (7 Chapters) -->
+    <nav class="story-nav-dots" aria-label="Chapter Navigation">
+        <button class="nav-dot active" data-slide="1" title="Ch 1: Royal Verification"></button>
+        <button class="nav-dot" data-slide="2" title="Ch 2: Forever Question & Compatibility"></button>
+        <button class="nav-dot" data-slide="3" title="Ch 3: Clothesline Gallery & Avatars"></button>
+        <button class="nav-dot" data-slide="4" title="Ch 4: Superpowers & Mood Center"></button>
+        <button class="nav-dot" data-slide="5" title="Ch 5: BTS & Kim Taehyung Lounge"></button>
+        <button class="nav-dot" data-slide="6" title="Ch 6: 100 Reasons Why I Love You"></button>
+        <button class="nav-dot" data-slide="7" title="Ch 7: Wax-Sealed Letter"></button>
+    </nav>
+
+    <!-- Main Multi-Step Slides Container (Full Width, Rich Scrolling Chapters) -->
+    <main class="slides-container">
+
+        <!-- =========================================================
+             CHAPTER 1: THE ROYAL VERIFICATION PORTAL (Slide 1)
+             ========================================================= -->
+        <section id="slide-1" class="story-slide active">
+            <div class="slide-card full-rich-card">
+                
+                <!-- Slide Header Banner -->
+                <div class="portal-header-row">
+                    <span class="royal-tag">👑 ROYAL ACCESS ONLY • PRIVATE UNIVERSE</span>
+                </div>
+
+                <!-- 3-Column Immersive Grid -->
+                <div class="portal-three-col-grid">
+                    
+                    <!-- Left: VIP Entry Pass -->
+                    <div class="portal-side-card left-side-pass">
+                        <div class="pass-stamp">VIP PASS</div>
+                        <h4 class="pass-name">KHUSHI 👸</h4>
+                        <p class="pass-desc">Official Lifetime Keyholder to My Heart</p>
+                        <div class="pass-perks">
+                            <div class="perk-item">✓ Unlimited Warm Cuddles</div>
+                            <div class="perk-item">✓ Free Pizza & Midnight Snacks</div>
+                            <div class="perk-item">✓ Legally Allowed to Scream at Kim Taehyung Photos</div>
+                        </div>
+                        <div class="barcode-line">|||||| |||| |||||||| |||</div>
+                    </div>
+
+                    <!-- Center: Verification Lock Box -->
+                    <div class="portal-center-box">
+                        <div class="center-cat-wrapper">
+                            <img src="assets/stickers/cat_love.gif" alt="Cute Love Cat" class="portal-cat-img">
+                        </div>
+                        <h1 class="slide-main-title">Identify Yourself, Cutie!</h1>
+                        <p class="slide-desc">
+                            Who holds the key to my whole heart and makes every single ordinary day feel like magic?
+                        </p>
+
+                        <div class="portal-input-group">
+                            <input type="text" id="gate-pass-input" placeholder="Enter your name here..." autocomplete="off">
+                            <button id="gate-submit-btn" class="btn-royal-blue">
+                                <span>Unlock My Universe</span> ✨
+                            </button>
+                        </div>
+                        <div id="gate-error-text" class="gate-error-text"></div>
+                    </div>
+
+                    <!-- Right: Boyfriend Notice -->
+                    <div class="portal-side-card right-side-notice">
+                        <img src="assets/stickers/bubu_heart.svg" alt="Bubu Hug" class="bubu-notice-img">
+                        <h4 class="notice-title">Notice from Boyfriend:</h4>
+                        <p class="notice-text">
+                            "Entering this website carries a 100% guarantee of blushing, feeling deeply loved, and being pampered without any reasons!"
+                        </p>
+                        <span class="notice-badge">100% Safe with Me 💙</span>
+                    </div>
+
+                </div>
+
+                <!-- Bottom Ticker -->
+                <div class="portal-bottom-ticker">
+                    <span>✨ NOW LOADING KHUSHI'S SPECIAL UNIVERSE • UNLIMITED SMILES • ZERO REASONS NEEDED • 1000% LOVE ✨</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================================================
+             CHAPTER 2: "WILL YOU BE MY FOREVER?" & COMPATIBILITY LAB (Slide 2)
+             ========================================================= -->
+        <section id="slide-2" class="story-slide">
+            <div class="slide-card full-rich-card">
+                
+                <span class="royal-tag">💍 CHAPTER 2 • THE BIG QUESTION</span>
+                
+                <!-- Main Proposal Box -->
+                <div id="proposal-main-card" class="proposal-hero-section">
+                    <h2 id="proposal-title" class="slide-main-title glow-text">Will You Be My Forever?</h2>
+                    <p id="proposal-subtitle" class="slide-desc romantic-italic">
+                        "In a universe of billions, my heart chose you. You are my clarity in chaos. Will you walk this life with me?"
+                    </p>
+
+                    <!-- Hand-drawn Doodle Box with Tape (as in 97-lac) -->
+                    <div class="doodle-polaroid-frame">
+                        <div class="tape-strip"></div>
+                        <div class="doodle-content">
+                            <img id="proposal-meme-sticker" src="assets/stickers/momo-the-cat-momo.gif" alt="Cute Meme Cat" class="proposal-meme-cat">
+                        </div>
+                    </div>
+
+                    <!-- Interactive Buttons (YES vs Runaway NO) -->
+                    <div id="proposal-buttons-area" class="proposal-actions-area">
+                        <button id="proposal-yes-btn" class="btn-pink-forever">
+                            YES, FOREVER 💖
+                        </button>
+                        <button id="proposal-no-btn" class="btn-runaway-no">
+                            No 🥺
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Success Banner when clicked YES -->
+                <div id="proposal-success-box" class="proposal-success-view" style="display: none;">
+                    <span class="celebration-emojis">💍🥰💖</span>
+                    <h2 class="slide-main-title glow-text">OFFICIAL CONTRACT SIGNED!</h2>
+                    <p class="slide-desc">
+                        You clicked YES! You are now legally and emotionally bound to receive infinite love, warm cuddles, and delicious food forever. No returns allowed!
+                    </p>
+                </div>
+
+                <!-- Scroll Down Section 2.1: Couple Compatibility Lab -->
+                <div class="divider-line"></div>
+                <div class="compatibility-lab-grid">
+                    <div class="compat-card">
+                        <span class="compat-icon">🧪</span>
+                        <h4>Chemistry Level</h4>
+                        <div class="compat-bar-wrap"><div class="compat-bar-fill" style="width: 100%;"></div></div>
+                        <span class="compat-stat">10,000% (Beyond Science!)</span>
+                    </div>
+
+                    <div class="compat-card">
+                        <span class="compat-icon">⚡</span>
+                        <h4>Making Up After Fighting</h4>
+                        <div class="compat-bar-wrap"><div class="compat-bar-fill" style="width: 95%;"></div></div>
+                        <span class="compat-stat">0.2 Seconds (Can't stay mad!)</span>
+                    </div>
+
+                    <div class="compat-card">
+                        <span class="compat-icon">♾️</span>
+                        <h4>Who Loves Who More?</h4>
+                        <div class="compat-bar-wrap"><div class="compat-bar-fill" style="width: 100%;"></div></div>
+                        <span class="compat-stat">Boyfriend is always leading! 😉❤️</span>
+                    </div>
+                </div>
+
+                <!-- Scroll Down Section 2.2: Live Love Timer & Pampering Dispatch -->
+                <div class="love-timer-card">
+                    <h4 style="color: #ffffff; font-size: 1.1rem; margin-bottom: 8px;">⏳ Falling Deeper In Love With You Every Single Second:</h4>
+                    <div class="timer-digits-row">
+                        <div class="timer-block"><span id="counter-days" class="timer-num">1,056</span><span class="timer-unit">Days</span></div>
+                        <div class="timer-block"><span id="counter-hours" class="timer-num">21</span><span class="timer-unit">Hours</span></div>
+                        <div class="timer-block"><span id="counter-minutes" class="timer-num">45</span><span class="timer-unit">Minutes</span></div>
+                        <div class="timer-block"><span id="counter-seconds" class="timer-num">12</span><span class="timer-unit">Seconds</span></div>
+                    </div>
+                </div>
+
+                <!-- Slide Navigation Row -->
+                <div class="slide-navigation-row">
+                    <button class="btn-secondary-nav btn-slide-prev" data-prev="1">← Previous</button>
+                    <button class="btn-royal-blue btn-slide-next" data-next="3">Next Chapter: Clothesline Photos 📸 ➔</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================================================
+             CHAPTER 3: CLOTHESLINE PHOTO GALLERY & 5 AVATARS (Slide 3)
+             ========================================================= -->
+        <section id="slide-3" class="story-slide">
+            <div class="slide-card full-rich-card">
+                
+                <span class="royal-tag">📸 CHAPTER 3 • THE 5 SUPREME AVATARS</span>
+                <h2 class="slide-main-title">Khushi's Clothesline Gallery</h2>
+                <p class="slide-desc">A photographic study of why I fell in love with you. Scroll down to explore each avatar in detail!</p>
+
+                <!-- Clothesline Rope with Wooden Clips -->
+                <div class="clothesline-container">
+                    <div class="clothesline-wire"></div>
+                    <div class="fairy-lights-row">
+                        <span class="light l-cyan"></span>
+                        <span class="light l-pink"></span>
+                        <span class="light l-purple"></span>
+                        <span class="light l-cyan"></span>
+                        <span class="light l-pink"></span>
+                        <span class="light l-purple"></span>
+                        <span class="light l-cyan"></span>
+                    </div>
+
+                    <div class="hanging-photos-grid">
+                        <div class="hang-photo" data-photo-id="photo1" style="--tilt: -5deg; --drop: 8px;">
+                            <div class="wooden-clip clip-pink"></div>
+                            <div class="mini-frame frame-pink">
+                                <img src="assets/images/photo1_cute_cheeks.jpg" alt="Squishy Cheeks">
+                                <span class="hang-caption">Squishy Cheeks 🥰</span>
+                            </div>
+                        </div>
+
+                        <div class="hang-photo" data-photo-id="photo2" style="--tilt: 4deg; --drop: 16px;">
+                            <div class="wooden-clip clip-blue"></div>
+                            <div class="mini-frame frame-blue">
+                                <img src="assets/images/photo2_stylish_look.jpg" alt="Runway Aesthetic">
+                                <span class="hang-caption">Runway Baddie 🖤</span>
+                            </div>
+                        </div>
+
+                        <div class="hang-photo" data-photo-id="photo3" style="--tilt: -3deg; --drop: 4px;">
+                            <div class="wooden-clip clip-lavender"></div>
+                            <div class="mini-frame frame-lavender">
+                                <img src="assets/images/photo3_sweet_smile.jpg" alt="Innocent Smile">
+                                <span class="hang-caption">Innocent Angel 😇</span>
+                            </div>
+                        </div>
+
+                        <div class="hang-photo" data-photo-id="photo4" style="--tilt: 5deg; --drop: 12px;">
+                            <div class="wooden-clip clip-pink"></div>
+                            <div class="mini-frame frame-pink">
+                                <img src="assets/images/photo4_bindi_smirk.jpg" alt="Micro Bindi Smirk">
+                                <span class="hang-caption">Desi Magic 👑</span>
+                            </div>
+                        </div>
+
+                        <div class="hang-photo" data-photo-id="photo5" style="--tilt: -4deg; --drop: 10px;">
+                            <div class="wooden-clip clip-blue"></div>
+                            <div class="mini-frame frame-blue">
+                                <img src="assets/images/photo5_goofy_tongue.jpg" alt="Goofy Tongue Ring Inspector">
+                                <span class="hang-caption">Meme Queen 🤪💍</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deep-Dive Scroll Section: Detailed Photo Cards Grid -->
+                <div class="divider-line"></div>
+                <h3 style="color: #ffffff; font-size: 1.4rem; margin-bottom: 20px;">Detailed Avatar Breakdown (Scroll to Inspect):</h3>
+
+                <div class="detailed-avatars-grid">
+                    
+                    <!-- Avatar 1 -->
+                    <div class="avatar-detail-card" data-photo-id="photo1">
+                        <div class="avatar-img-col">
+                            <img src="assets/images/photo1_cute_cheeks.jpg" alt="Squishy Cheeks">
+                        </div>
+                        <div class="avatar-info-col">
+                            <span class="avatar-badge pink-tag">AVATAR #1 • 1000/10 CUTENESS</span>
+                            <h4>The 'Dekho Kitni Cute Hu Na' Cheeks 🥰</h4>
+                            <p>Both hands framing that soft, sweet smile. You have no idea how much peace this single photo gives me. It’s my absolute favorite picture in the world.</p>
+                            <span class="stat-highlight">Risk Level: 100% Heart Melt</span>
+                        </div>
+                    </div>
+
+                    <!-- Avatar 2 -->
+                    <div class="avatar-detail-card" data-photo-id="photo2">
+                        <div class="avatar-img-col">
+                            <img src="assets/images/photo2_stylish_look.jpg" alt="Runway Aesthetic">
+                        </div>
+                        <div class="avatar-info-col">
+                            <span class="avatar-badge blue-tag">AVATAR #2 • RUNWAY SLAYER</span>
+                            <h4>Runway Slayer & Dark Aesthetic Queen 🖤✨</h4>
+                            <p>Emerald green textured sweater, hair brushed back, sharp winged eyeliner, and that model-level gaze. Main character energy off the charts!</p>
+                            <span class="stat-highlight">Status: 100% Lethal Elegance</span>
+                        </div>
+                    </div>
+
+                    <!-- Avatar 3 -->
+                    <div class="avatar-detail-card" data-photo-id="photo3">
+                        <div class="avatar-img-col">
+                            <img src="assets/images/photo3_sweet_smile.jpg" alt="Innocent Smile">
+                        </div>
+                        <div class="avatar-info-col">
+                            <span class="avatar-badge pink-tag">AVATAR #3 • INNOCENT ANGEL</span>
+                            <h4>The 'Maine Kuch Nahi Kiya' Smile 😇</h4>
+                            <p>Cozy bed selfie looking like a tiny angel. Usually made right before asking for treats, pampering, or extra attention!</p>
+                            <span class="stat-highlight">Superpower: Impossible to say 'No'</span>
+                        </div>
+                    </div>
+
+                    <!-- Avatar 4 -->
+                    <div class="avatar-detail-card" data-photo-id="photo4">
+                        <div class="avatar-img-col">
+                            <img src="assets/images/photo4_bindi_smirk.jpg" alt="Micro Bindi Smirk">
+                        </div>
+                        <div class="avatar-info-col">
+                            <span class="avatar-badge purple-tag">AVATAR #4 • DESI MAGIC</span>
+                            <h4>The Micro-Bindi & Mischievous Smirk 🫠</h4>
+                            <p>A tiny red bindi on your forehead and that subtle smirk... Pure desi royalty. You look like poetry in real life, Khushi.</p>
+                            <span class="stat-highlight">Vibe: Pure Desi Poetry</span>
+                        </div>
+                    </div>
+
+                    <!-- Avatar 5 -->
+                    <div class="avatar-detail-card" data-photo-id="photo5">
+                        <div class="avatar-img-col">
+                            <img src="assets/images/photo5_goofy_tongue.jpg" alt="Goofy Tongue Ring Inspector">
+                        </div>
+                        <div class="avatar-info-col">
+                            <span class="avatar-badge blue-tag">AVATAR #5 • CERTIFIED MEME</span>
+                            <h4>The Goofy Ring Inspector (Peak Meme Energy) 🤪💍</h4>
+                            <p>Tongue out, inspecting mehendi/ring like a certified diamond scientist! 50% goddess, 50% pure certified goofball!</p>
+                            <span class="stat-highlight">Specialty: Forensic Jewelry Testing</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Slide Navigation Row -->
+                <div class="slide-navigation-row">
+                    <button class="btn-secondary-nav btn-slide-prev" data-prev="2">← Previous</button>
+                    <button class="btn-royal-blue btn-slide-next" data-next="4">Next Chapter: Superpowers & Moods 🌟 ➔</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================================================
+             CHAPTER 4: KHUSHI'S SUPERPOWERS & MOOD CENTER (Slide 4)
+             ========================================================= -->
+        <section id="slide-4" class="story-slide">
+            <div class="slide-card full-rich-card">
+                
+                <span class="royal-tag">🌟 CHAPTER 4 • SUPERPOWERS & MOOD LAB</span>
+                <h2 class="slide-main-title">Khushi's Character Sheet & Care Center</h2>
+                <p class="slide-desc">Certified stats of a Level 9999 Girlfriend, plus your 24/7 emergency mood station!</p>
+
+                <!-- Profile Header Banner -->
+                <div class="profile-banner-box">
+                    <img src="assets/stickers/happy_dance.gif" alt="Happy Dance" class="profile-avatar-gif">
+                    <div class="profile-meta">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <img src="assets/stickers/queen_crown.svg" alt="Crown" style="width: 28px; height: 28px;">
+                            <h3 style="color: #ffffff; font-size: 1.3rem;">Khushi • The Supreme Girl</h3>
+                        </div>
+                        <span class="green-flag-pill">✅ Certified 1000% Green Flag • 1 of 1 in Universe</span>
+                    </div>
+                </div>
+
+                <!-- 5 Certified Superpowers -->
+                <div class="superpowers-grid">
+                    <div class="power-card">
+                        <span class="power-emoji">💖</span>
+                        <div>
+                            <h4>Instant Heart Melt (+9999 HP)</h4>
+                            <p>One smile with both hands framing your cheeks cures 100% of daily stress in 0.01 seconds.</p>
+                        </div>
+                    </div>
+
+                    <div class="power-card">
+                        <span class="power-emoji">😤</span>
+                        <div>
+                            <h4>Marshmallow Mode (Special Ability)</h4>
+                            <p>Can get dramatically angry over tiny cute things, but melts into a cuddly baby in under 2 minutes.</p>
+                        </div>
+                    </div>
+
+                    <div class="power-card">
+                        <span class="power-emoji">💅</span>
+                        <div>
+                            <h4>Effortless Runway Royalty</h4>
+                            <p>Looks like a supreme model whether wearing an emerald sweater, ethnic bindi, or cozy oversized pajamas.</p>
+                        </div>
+                    </div>
+
+                    <div class="power-card">
+                        <span class="power-emoji">🍕</span>
+                        <div>
+                            <h4>"Kuch Bhi Mangwa Lo" Paradox</h4>
+                            <p>Claims she will eat anything, but will politely reject the first 5 food recommendations! 😂</p>
+                        </div>
+                    </div>
+
+                    <div class="power-card">
+                        <span class="power-emoji">💜</span>
+                        <div>
+                            <h4>Passionate BTS Vocalist</h4>
+                            <p>Sings BTS songs with 100% genuine emotion and 40% accurate Korean lyrics, and looks adorable doing it!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scroll Down: Emergency Mood Center & Sliders -->
+                <div class="divider-line"></div>
+                <h3 style="color: #ffffff; font-size: 1.4rem; margin-bottom: 20px;">Emergency Care & Pampering Dispatch:</h3>
+
+                <div class="mood-diagnostic-grid">
+                    <div class="mood-sliders-col">
+                        <div style="text-align: center; margin-bottom: 12px;">
+                            <img src="assets/stickers/marshmallow_hangry.svg" alt="Hangry Marshmallow" style="width: 110px; height: 110px;">
+                        </div>
+
+                        <div class="slider-box">
+                            <div class="slider-header-row">
+                                <span style="color: #cbd5e1; font-size: 0.9rem;">Hangry Level:</span>
+                                <span style="color: #f43f5e; font-weight: 700;">Needs Snacks ASAP! 🍟</span>
+                            </div>
+                            <input type="range" min="0" max="100" value="85" class="custom-slider" style="accent-color: #f43f5e;">
+                        </div>
+
+                        <div class="slider-box" style="margin-top: 14px;">
+                            <div class="slider-header-row">
+                                <span style="color: #cbd5e1; font-size: 0.9rem;">Drama Queen Meter:</span>
+                                <span id="drama-meter-val" style="color: var(--accent-cyan); font-weight: 700;">100% (Certified Queen 👑)</span>
+                            </div>
+                            <input type="range" id="drama-meter-slider" min="0" max="100" value="100" class="custom-slider" style="accent-color: var(--accent-cyan);">
+                            <div id="mood-diagnostic-toast" class="diagnostic-toast" style="display: none;"></div>
+                        </div>
+                    </div>
+
+                    <div class="mood-actions-col">
+                        <div class="mood-buttons-flex">
+                            <button id="btn-emergency-hug" class="btn-care-action">
+                                <span>🧸</span> Warm Bear Hug
+                            </button>
+                            <button id="btn-emergency-pizza" class="btn-care-action">
+                                <span>🍕</span> Virtual Pizza & Boba
+                            </button>
+                            <button id="btn-emergency-queen" class="btn-care-action">
+                                <span>👑</span> Queen Compliment
+                            </button>
+                        </div>
+                        <div id="mood-action-result" class="mood-action-result">
+                            <div class="care-feedback-card">
+                                <span style="font-size: 1.8rem;">✨💙</span>
+                                <h4>Care Center Online</h4>
+                                <p>Tap any button whenever you feel even 1% down, Khushi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Navigation Row -->
+                <div class="slide-navigation-row">
+                    <button class="btn-secondary-nav btn-slide-prev" data-prev="3">← Previous</button>
+                    <button class="btn-royal-blue btn-slide-next" data-next="5">Next Chapter: BTS & Kim Taehyung 💜 ➔</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================================================
+             CHAPTER 5: BTS & KIM TAEHYUNG VIP SANCTUARY (Slide 5)
+             ========================================================= -->
+        <section id="slide-5" class="story-slide">
+            <div class="slide-card full-rich-card bts-sanctuary-card">
+                
+                <span class="bts-badge">💜 CHAPTER 5 • KHUSHI'S ULTIMATE BIAS • BORAHAE ZONE</span>
+                <h2 class="slide-main-title glow-purple-text">The Kim Taehyung (V) VIP Lounge</h2>
+                <p class="slide-desc">Because you love Kim Taehyung so much, here is his VIP corner with 6 of his best songs ready to play!</p>
+
+                <!-- Taehyung Portrait & Relationship Clause -->
+                <div class="bts-spotlight-row">
+                    <div class="taehyung-portrait-frame">
+                        <img src="assets/images/kim_taehyung.jpg" alt="Kim Taehyung V BTS" class="taehyung-img">
+                        <span class="taehyung-label">Kim Taehyung (V) 💜</span>
+                    </div>
+                    <div class="bts-agreement-note">
+                        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+                            <img src="assets/stickers/borahae_heart.svg" alt="Borahae" style="width: 32px; height: 32px;">
+                            <h3 style="color: #c084fc; font-size: 1.15rem;">Official Boyfriend Clause:</h3>
+                        </div>
+                        <p style="color: #cbd5e1; font-size: 0.95rem; line-height: 1.7;">
+                            "Khushi is legally allowed to admire Kim Taehyung 24/7! But remember: Kim is in Seoul, while your sweet boyfriend is right here, giving you real cuddles and coding this entire world for you! 🥰"
+                        </p>
+                        <div id="bts-now-playing-banner" class="bts-playing-banner" style="display: none;"></div>
+                    </div>
+                </div>
+
+                <!-- 6 Big Playable BTS Songs -->
+                <div class="divider-line"></div>
+                <h3 style="color: #ffffff; font-size: 1.4rem; margin-bottom: 20px;">Taehyung's Jukebox (Click Play to Listen):</h3>
+
+                <div class="bts-songs-grid">
+                    <div class="bts-song-card" data-song="sweet_night">
+                        <div class="song-card-info">
+                            <span class="song-icon">🎵</span>
+                            <div>
+                                <h4 class="song-title">1. Sweet Night</h4>
+                                <span class="song-artist">V • Itaewon Class OST</span>
+                            </div>
+                        </div>
+                        <button class="bts-play-btn" data-song="sweet_night">▶ Play</button>
+                    </div>
+
+                    <div class="bts-song-card" data-song="winter_bear">
+                        <div class="song-card-info">
+                            <span class="song-icon">🐻</span>
+                            <div>
+                                <h4 class="song-title">2. Winter Bear</h4>
+                                <span class="song-artist">V • Cozy Romantic Ballad</span>
+                            </div>
+                        </div>
+                        <button class="bts-play-btn" data-song="winter_bear">▶ Play</button>
+                    </div>
+
+                    <div class="bts-song-card" data-song="christmas_tree">
+                        <div class="song-card-info">
+                            <span class="song-icon">🎄</span>
+                            <div>
+                                <h4 class="song-title">3. Christmas Tree</h4>
+                                <span class="song-artist">V • Our Beloved Summer</span>
+                            </div>
+                        </div>
+                        <button class="bts-play-btn" data-song="christmas_tree">▶ Play</button>
+                    </div>
+
+                    <div class="bts-song-card" data-song="slow_dancing">
+                        <div class="song-card-info">
+                            <span class="song-icon">🎷</span>
+                            <div>
+                                <h4 class="song-title">4. Slow Dancing</h4>
+                                <span class="song-artist">V • Layover Album</span>
+                            </div>
+                        </div>
+                        <button class="bts-play-btn" data-song="slow_dancing">▶ Play</button>
+                    </div>
+
+                    <div class="bts-song-card" data-song="love_me_again">
+                        <div class="song-card-info">
+                            <span class="song-icon">💔</span>
+                            <div>
+                                <h4 class="song-title">5. Love Me Again</h4>
+                                <span class="song-artist">V • Layover Album</span>
+                            </div>
+                        </div>
+                        <button class="bts-play-btn" data-song="love_me_again">▶ Play</button>
+                    </div>
+
+                    <div class="bts-song-card" data-song="dynamite">
+                        <div class="song-card-info">
+                            <span class="song-icon">⚡</span>
+                            <div>
+                                <h4 class="song-title">6. Dynamite</h4>
+                                <span class="song-artist">BTS • Pure Energy & Swag</span>
+                            </div>
+                        </div>
+                        <button class="bts-play-btn" data-song="dynamite">▶ Play</button>
+                    </div>
+                </div>
+
+                <!-- Slide Navigation Row -->
+                <div class="slide-navigation-row">
+                    <button class="btn-secondary-nav btn-slide-prev" data-prev="4">← Previous</button>
+                    <button class="btn-royal-blue btn-slide-next" data-next="6">Next Chapter: 100 Reasons 💙 ➔</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================================================
+             CHAPTER 6: 100 REASONS WHY I LOVE YOU (Slide 6)
+             ========================================================= -->
+        <section id="slide-6" class="story-slide">
+            <div class="slide-card full-rich-card">
+                
+                <span class="royal-tag">💌 CHAPTER 6 • 100 LITTLE TRUTHS</span>
+                <h2 class="slide-main-title">100 Reasons Why I Love You <span style="color: #38bdf8;">💙</span></h2>
+                <p class="slide-desc">Scroll through all 100 reasons, search your favorite memories, or roll the dice!</p>
+
+                <!-- Search & Random Button -->
+                <div class="reasons-toolbar">
+                    <input type="text" id="reasons-search-input" placeholder="🔍 Search a reason (e.g. cheeks, smile, hug)...">
+                    <button id="reasons-random-btn" class="btn-royal-blue" style="padding: 10px 20px; font-size: 0.9rem;">
+                        Random Reason 🎲
+                    </button>
+                </div>
+
+                <!-- 100 Reasons Scrolling Box -->
+                <div class="reasons-scroll-box">
+                    <ol id="reasons-100-list" class="reasons-ordered-list"></ol>
+                </div>
+
+                <!-- Slide Navigation Row -->
+                <div class="slide-navigation-row">
+                    <button class="btn-secondary-nav btn-slide-prev" data-prev="5">← Previous</button>
+                    <button class="btn-royal-blue btn-slide-next" data-next="7">Next Chapter: Secret Letter 💌 ➔</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- =========================================================
+             CHAPTER 7: THE SECRET LOVE LETTER & ENVELOPE (Slide 7)
+             ========================================================= -->
+        <section id="slide-7" class="story-slide">
+            <div class="slide-card full-rich-card secret-letter-card">
+                
+                <span class="royal-tag">📜 CHAPTER 7 • SEALED WITH INFINITE LOVE</span>
+                <h2 class="slide-main-title">A Letter Straight From My Heart</h2>
+                <p id="letter-hero-subtitle" class="slide-desc">A private handwritten letter created just for you. Break the royal wax seal to read it!</p>
+
+                <!-- Interactive Envelope & Letter Stage -->
+                <div class="interactive-envelope-stage">
+                    
+                    <!-- 1. Realistic 3D Royal Sealed Envelope (Active initially) -->
+                    <div id="envelope-sealed-card" class="envelope-3d-box">
+                        <div class="envelope-back-panel"></div>
+                        
+                        <!-- Top Triangular Flap -->
+                        <div id="envelope-top-flap" class="envelope-flap-triangle">
+                            <div class="flap-inner-shadow"></div>
+                        </div>
+
+                        <!-- Envelope Pocket Face -->
+                        <div class="envelope-pocket-face">
+                            <!-- Airmail Postage Stamp & Postmark -->
+                            <div class="envelope-stamps-group">
+                                <div class="royal-airmail-badge">
+                                    <span class="airmail-plane">✈️</span>
+                                    <span>SPECIAL AIRMAIL • PRIORITY LOVE</span>
+                                </div>
+                                <div class="postage-stamp-box">
+                                    <span class="stamp-icon">👑</span>
+                                    <span class="stamp-title">KHUSHI</span>
+                                    <span class="stamp-date">NOV 2026</span>
+                                </div>
+                            </div>
+
+                            <!-- Handwritten Address Label -->
+                            <div class="envelope-address-card">
+                                <span class="address-to-label">DELIVER TO:</span>
+                                <h3 class="address-name">Khushi, My Whole World 👸💖</h3>
+                                <p class="address-sub">The Prettiest Girl Alive • Keyholder of My Heart</p>
+                            </div>
+                        </div>
+
+                        <!-- 3D Royal Wax Seal Button (Centered over the flap fold) -->
+                        <div id="wax-seal-btn" class="royal-wax-seal-3d" title="Click to break seal & open letter">
+                            <div class="wax-seal-body">
+                                <div class="wax-seal-rim"></div>
+                                <div class="wax-seal-face">
+                                    <span class="wax-crown-icon">👑</span>
+                                    <span class="wax-name-text">KHUSHI</span>
+                                    <span class="wax-sub-action">TAP TO OPEN</span>
+                                </div>
+                            </div>
+                            <div class="wax-seal-glow-ring"></div>
+                        </div>
+
+                        <p class="seal-click-hint">✨ Click the wax seal to break it & unfold your letter ✨</p>
+                    </div>
+
+                    <!-- 2. Unfolded Luxury Letter Parchment (Revealed upon clicking seal) -->
+                    <div id="unfolded-letter-stage" class="luxury-letter-parchment" style="display: none;">
+                        
+                        <!-- Parchment Gold Corners -->
+                        <div class="parchment-gold-corner corner-tl"></div>
+                        <div class="parchment-gold-corner corner-tr"></div>
+                        <div class="parchment-gold-corner corner-bl"></div>
+                        <div class="parchment-gold-corner corner-br"></div>
+
+                        <!-- Parchment Header Bar -->
+                        <div class="parchment-header-row">
+                            <div class="dispatch-badge">
+                                <span class="badge-title">📜 CONFIDENTIAL LOVE DISPATCH</span>
+                                <span class="badge-sub">Exclusively For Khushi's Eyes Only</span>
+                            </div>
+                            <div class="bts-borahae-seal">
+                                <img src="assets/stickers/borahae_heart.svg" alt="Borahae" class="mini-borahae-icon">
+                                <span>BORAHAE 7 💜</span>
+                            </div>
+                        </div>
+
+                        <!-- Romantic Letter Body -->
+                        <div class="parchment-letter-body">
+                            <h3 class="letter-salutation-script">My Dearest Khushi,</h3>
+                            
+                            <p class="letter-text-para">
+                                I wanted to write this for you today simply because my heart was so full of love for you that ordinary words felt too small to contain it. There was no special day or reason needed—just an ordinary afternoon where I looked at your photos and felt an overwhelming wave of gratitude that you exist in my world.
+                            </p>
+
+                            <p class="letter-text-para">
+                                You have this effortless magic about you. Whether you're pinching your cheeks with both hands, giving that killer model gaze with your micro-bindi, or sticking your tongue out inspecting a ring like a certified diamond scientist—every single mood and avatar of yours makes me fall in love with you all over again. You bring so much peace, laughter, and genuine warmth into my life.
+                            </p>
+
+                            <p class="letter-text-para">
+                                I know how passionately you love BTS and Kim Taehyung (and he really is super cool!), but I promise you with all my heart that no one in this entire universe will ever cherish, protect, or love you more than I do. Whenever life gets loud or tiring, remember you will always have a safe haven right here in my arms.
+                            </p>
+
+                            <p class="letter-text-para">
+                                Thank you for being my Khushi—the absolute happiness of my life. I love you endlessly, today, tomorrow, and in every universe yet to be written.
+                            </p>
+
+                            <!-- Letter Footer with Kiss Marks & Signature -->
+                            <div class="parchment-footer-row">
+                                <div class="letter-kisses-cluster">
+                                    <img src="assets/stickers/cat_love.gif" alt="Cute Love Cat" class="letter-cat-doodle">
+                                    <div id="kiss-stamps-container" class="kiss-stamps-box"></div>
+                                </div>
+                                <div class="letter-signature-block">
+                                    <span class="sign-salutation">Forever and always yours,</span>
+                                    <h4 class="sign-handwritten">With all my love & heart ❤️</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Interactive Kiss Stamper Action -->
+                        <div class="interactive-kiss-toolbar">
+                            <button id="btn-stamp-kiss" class="btn-kiss-stamp">
+                                <span>💋</span> Send a Kiss to the Letter
+                            </button>
+                            <span id="kiss-feedback-msg" class="kiss-counter-badge">0 Kisses Placed</span>
+                        </div>
+
+                        <!-- Post-Letter Emotional Reactions -->
+                        <div class="letter-reactions-container">
+                            <h4 class="reactions-heading">How does your heart feel after reading this? 💕</h4>
+                            <div class="love-reactions-row">
+                                <button class="love-reaction-btn" data-reaction="crying">
+                                    <span>😭</span> Crying Happy Tears <span class="reaction-count">142</span>
+                                </button>
+                                <button class="love-reaction-btn" data-reaction="melted">
+                                    <span>🥰</span> Completely Melted <span class="reaction-count">380</span>
+                                </button>
+                                <button class="love-reaction-btn" data-reaction="queen">
+                                    <span>👑</span> Queen Approved <span class="reaction-count">210</span>
+                                </button>
+                                <button class="love-reaction-btn" data-reaction="borahae">
+                                    <span>💜</span> Borahae Forever <span class="reaction-count">520</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Slide Navigation Row -->
+                        <div class="slide-navigation-row" style="margin-top: 36px;">
+                            <button class="btn-secondary-nav btn-slide-prev" data-prev="6">← Previous (100 Reasons)</button>
+                            <button class="btn-royal-blue" id="btn-replay-universe">Replay Khushi's Journey 🔄</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Photo Inspection Lightbox Modal -->
+    <div id="photo-modal" class="photo-lightbox-modal">
+        <div class="modal-box">
+            <button id="close-photo-modal" class="modal-close" aria-label="Close">✕</button>
+            <div class="modal-img-wrapper">
+                <img id="modal-photo-img" src="" alt="Zoomed view">
+            </div>
+            <div class="modal-text-content">
+                <span id="modal-photo-sticker" class="modal-sticker-pill"></span>
+                <h3 id="modal-photo-title" class="modal-title"></h3>
+                <p id="modal-photo-caption" class="modal-caption"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/particles.js?v=3.0"></script>
+    <script src="js/app.js?v=3.0"></script>
+</body>
+</html>
